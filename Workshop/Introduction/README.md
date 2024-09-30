@@ -21,8 +21,9 @@ This workshop will teach the basics of Roblox Studio and how to create your firs
       - [2.7.1. Starter Character Scripts](#271-starter-character-scripts)
       - [2.7.2. Starter Player Scripts](#272-starter-player-scripts)
 - [3 Lua (Luau)](#3-lua-luau)
-    - [3.1. Hello, World!](#31-hello-world)
-    - [3.2. Variables](#32-variables)
+  - [3.1. Hello, World!](#31-hello-world)
+  - [3.2. Variables](#32-variables)
+  - [3.3. Strings](#33-strings)
 
 ## 1. Getting started
 
@@ -41,7 +42,7 @@ On the right side of your screen, you will see the "Explorer" window. This windo
 
 Each object in this "Explorer" window is called an "Instance". Instances are the building blocks of Roblox games. They can be anything from a part to a script.
 
-![Explorer](https://cdn.discordapp.com/attachments/895330695742881792/1289224182692974766/image.png?ex=66f80b15&is=66f6b995&hm=56939ee664eb33d062aa328f15644ad2ef6b135f7b08ff26468f423c0be94eae&)
+![Explorer](assets/image1.png)
 
 ### 2.1. Workspace
 
@@ -97,13 +98,15 @@ print("Hello, World!")
 
 Click the "Play" button at the top of the screen to start the game.
 
-![Button Play](https://cdn.discordapp.com/attachments/895330695742881792/1289231884202807347/image.png?ex=66f81241&is=66f6c0c1&hm=9d4af979b87915af9aa6c087133842dcca0074c109e0d7c6022b295d63f00cd6&)
+![Button Play](assets/image2.png)
 
 Look at the console at the bottom of the screen to see the "Hello, World!" message.
 
-![Console Hello World](https://cdn.discordapp.com/attachments/895330695742881792/1289232274750967900/image.png?ex=66f8129f&is=66f6c11f&hm=4de9d313af5a8334d3bd1145f9d928ff50669b79d4b71479675a6a18021545dd&)
+![Console Hello World](assets/image3.png)
 
-In Lua, variables are always declared using the `local` keyword, unless you want them to be global, which is not recommended (gwe will use "Variable" objects insted).
+## 3.2. Variables
+
+In Lua, variables don't need types, like Python, they are always declared using the `local` keyword, unless you want them to be global, which is not recommended (we will use "Variable" objects insted).
 
 Here is an example of how to declare a variable in Lua:
 
@@ -115,3 +118,20 @@ Here is an example of how to declare a variable in Lua:
 Give it a try!
 
 
+## 3.3. Strings
+
+In Lua, Strings can be created by enclosing the text in single or double quotes. Here are some examples:
+
+```lua
+  local myString1 = "Hello, World!"
+  local myString2 = 'Hello, World!'
+```
+
+Strings can be concatenated using the `..` operator.
+
+```lua
+  local myString1 = "Hello, "
+  local myString2 = "World!"
+  local myString3 = myString1 .. myString2
+  print(myString3)
+```
