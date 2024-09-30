@@ -282,4 +282,6 @@ Now that you have some basic knowledge of Roblox Studio, you can start creating 
 
 There are more complex and advanced features in Roblox Studio that you can explore, such as **Module Scripts** for code reusability (like libraries), **Remote Events** for communication between the client and the server, **Tweening** for parts animations, **ServerStorage** for storing objects in the server and make copies of them, Client **User Interfaces** (UI) for creating custom GUI elements, and more.
 
-You can explore all these features in the [Roblox Developer Hub](https://create.roblox.com/docs/get-started).
+You can explore all these features in the [Roblox Developer Hub Engine Reference](https://create.roblox.com/docs/reference/engine).
+
+For more generic informations, you can visit the [Roblox Developer Hub](https://create.roblox.com/docs/get-started).
