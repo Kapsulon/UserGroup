@@ -241,6 +241,10 @@ end)
 
 Now, no more errors should appear in the console.
 
+If you tried to touch the part with your character, you should see that the part moved a little bit. This is because by default, parts are not **Anchored**. Anchored parts cannot move or be affected by physics, basically physics is disabled for them.
+
+By clicking on the part in the Explorer, you can see the **Anchored** property in the **Properties** window. Toggling it to make the part anchored.
+
 ## 5.2. Kill Brick
 
 Now, we will create a script that kills the player when they touch the part :skull:.
