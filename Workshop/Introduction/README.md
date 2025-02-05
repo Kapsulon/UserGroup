@@ -30,7 +30,12 @@ This workshop will teach the basics of Roblox Studio and how to create your firs
   - [5.1. On Touched](#51-on-touched)
   - [5.2. Kill Brick](#52-kill-brick)
     - [5.2.1. Pretty Kill Block](#521-pretty-kill-block)
-- [6 Conclusion](#6-conclusion)
+- [6 Parkour](#6-parkour)
+  - [6.1. Start block and simple parkour course](#61-start-block-and-simple-parkour-course)
+  - [6.2. Add our kill block and finish block](#62-add-our-kill-block-and-finish-block)
+  - [6.3. Add checkpoints](#63-add-checkpoints)
+  - [6.4. Already finished ?](#64-already-finished-)
+- [7 Conclusion](#7-conclusion)
 
 ## 1. Getting started
 
@@ -277,7 +282,7 @@ Here is what you should see:
 
 # 6. Parkour
 
-## 6.1. Start and simple parkour course
+## 6.1. Start block and simple parkour course
 
 Now, we will create a simple parkour course with a start and an end.
 
