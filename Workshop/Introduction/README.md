@@ -300,7 +300,7 @@ Now, we will add our kill block to the parkour course to make it more challengin
 Finally, we will add a finish block at the end of the course. We will create a new part and make it green to indicate that it is the finish block.
 (Tip: You can copy the kill block, change its color and edit its script a little bit)
 
-We can also remove the Baseplate,so when the player falls, they will die and respawn at the start.
+We can also remove the Baseplate, so when the player falls, they will die and respawn at the start.
 
 You can make it as you like !
 
@@ -309,7 +309,7 @@ Here is what i got:
 
 I changed the finish block's script to make the platform blow green when the player touches it.
 
-You can do the same, or make it do something else, like teleporting the player to a new place.
+You can do the same, or make it do something else, like spawn an object, or play a sound. Do whatever you want !
 
 ## 6.3. Add checkpoints
 
@@ -319,7 +319,7 @@ For this one, you are all alone, but you can ask for help if you need it !
 
 ## 6.4. Already finished ?
 
-Wow, you're fast ! You can now try to make a more complex parkour course, or try ne type of things.
+Wow, you're fast ! You can now try to make a more complex parkour course, or try new type of things.
 Here is some ideas:
 - Add a timer to the course
 - Make particles effects when the player touches the finish block
