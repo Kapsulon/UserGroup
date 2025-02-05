@@ -85,7 +85,7 @@ The "StarterCharacterScripts" is an instance that contains scripts that are run 
 
 The "StarterPlayerScripts" is an instance that contains scripts that are run when a player joins the game. This is useful for setting up the player's GUI, such as interacting with a health bar or a scoreboard.
 
-# 3 Lua (Luau)
+# 3. Lua (Luau)
 
 Lua is a lightweight, high-level, multi-paradigm programming language designed primarily for embedded use in applications. Lua is cross-platform, since the interpreter is written in ANSI C, and has a relatively simple C API.
 
@@ -145,7 +145,7 @@ Strings can be concatenated using the `..` operator.
 
 *Try it!*
 
-# 4 Objects
+# 4. Objects
 
 In Roblox, objects are different type of instances that can be added to the game. Here, we will add an physical object to the game.
 
@@ -177,7 +177,7 @@ Here is what you should see:
 
 ![Red Part](assets/image5.png)
 
-# 5 Events
+# 5. Events
 
 In Roblox, events are used to trigger actions when certain conditions are met. Here, we will create an event that triggers when the player touches the part.
 
@@ -275,8 +275,55 @@ Here is what you should see:
 
 *You might don't see the glow in the editor, that is because of the quality settings. You can change the quality settings in File > Studio Settings > Rendering > Editor Quality Level, set is to Level 21 (Max).*
 
+# 6. Parkour
 
-# 6 Conclusion
+## 6.1. Start and simple parkour course
+
+Now, we will create a simple parkour course with a start and an end.
+
+First, we will create our start platform, and move our **SpawnLocation** to it.
+
+Then, we will create a series of platforms that the player will have to jump on to reach the end.
+
+Using the tools we learned, you should have that:
+![Parkour](assets/image7.png)
+
+## 6.2. Add our kill block and finish block
+
+Now, we will add our kill block to the parkour course to make it more challenging. Just copy the kill block multiple times and place them on the platforms.
+
+Finally, we will add a finish block at the end of the course. We will create a new part and make it green to indicate that it is the finish block.
+(Tip: You can copy the kill block, change its color and edit its script a little bit)
+
+We can also remove the Baseplate,so when the player falls, they will die and respawn at the start.
+
+You can make it as you like !
+
+Here is what i got:
+![Parkour Finish](assets/image8.png)
+
+I changed the finish block's script to make the platform blow green when the player touches it.
+
+You can do the same, or make it do something else, like teleporting the player to a new place.
+
+## 6.3. Add checkpoints
+
+Now, what you can do is chain multiple parkour courses together, and add checkpoints to save the player's progress and respawn them at the last checkpoint they touched.
+
+For this one, you are all alone, but you can ask for help if you need it !
+
+## 6.4. Already finished ?
+
+Wow, you're fast ! You can now try to make a more complex parkour course, or try ne type of things.
+Here is some ideas:
+- Add a timer to the course
+- Make particles effects when the player touches the finish block
+- Add moving platforms or obstacles
+- Save to Roblox's cloud the player date (current checkpoint, time, etc.) so they can quit and come back later, and then display it in Roblox's leaderboard
+- Add a lobby where the player can choose the course they want to play
+- Add a shop where the player can buy new skins or power-ups
+
+# 7 Conclusion
 
 Now that you have some basic knowledge of Roblox Studio, you can start creating your own games. There are many more features and concepts to learn, such as scripting, building, and more !
 
