@@ -324,7 +324,7 @@ Here is some ideas:
 - Add a timer to the course
 - Make particles effects when the player touches the finish block
 - Add moving platforms or obstacles
-- Save to Roblox's cloud the player date (current checkpoint, time, etc.) so they can quit and come back later, and then display it in Roblox's leaderboard
+- Save to Roblox's cloud the player data (current checkpoint, time, etc.) so they can quit and come back later, and then display it in Roblox's leaderboard
 - Add a lobby where the player can choose the course they want to play
 - Add a shop where the player can buy new skins or power-ups
 
